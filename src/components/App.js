@@ -6,9 +6,11 @@ const App = () => {
   const dispatch=useDispatch();
   return (
     <div>
-       <button onClick={()=>dispatch({type:"Decrement"})}>-</button>
-       <h1><Count/></h1>
+      <h1>
+      <button onClick={()=>dispatch({type:"Decrement"})}>-</button>
+       <Count/>
        <button onClick={()=>dispatch({type:"Increment"})}>+</button>
+      </h1>
     </div>
   )
 };
