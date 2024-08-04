@@ -8,7 +8,7 @@ const App = () => {
     <div>
       <h1>
       <button onClick={()=>dispatch({type:"Decrement"})}>-</button>
-       <Count/>
+      <div id="counter-value"><Count/></div>
        <button onClick={()=>dispatch({type:"Increment"})}>+</button>
       </h1>
     </div>
