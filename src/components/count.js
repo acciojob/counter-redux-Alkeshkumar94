@@ -5,7 +5,7 @@ function count() {
 
   return (
     <div>
-        <h2>{counter}</h2>
+        {counter}
     </div>
   )
 }
